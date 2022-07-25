@@ -4,9 +4,6 @@ const CURRENT_NUMBER = document.getElementById('currentNumber');
 
 function increment() {
 	count++;
-	if(Count > 0){
-		
-	}
 	CURRENT_NUMBER.innerHTML = count;
 
 }
