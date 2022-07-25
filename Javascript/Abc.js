@@ -3,6 +3,8 @@ function returnEvenValues(array) {
     for(let i = 0; i < array.length; i++) {
         if(array[i] % 2 === 0) {
             evenNums.push(array[i]);
+        } else {
+            console.log(`${array[i]} não é par!`); //utilizando o acento da crase ``, para declarar os números dentro da array que não são pares.
         }
     }
     console.log(evenNums);
